@@ -1,3 +1,4 @@
+![CI](https://github.com/JoshuaKistler/M450HandoutAbschlussProjekt/actions/workflows/ci.yml/badge.svg?branch=main)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
