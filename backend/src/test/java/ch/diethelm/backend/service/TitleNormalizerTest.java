@@ -15,4 +15,10 @@ class TitleNormalizerTest {
     void normalize_collapsesMultipleSpaces() {
         assertEquals("Super Mario Kart", TitleNormalizer.normalize("Super   Mario  Kart"));
     }
+
+
+    @Test
+    void normalize_capitalizesFirstLetter() {
+        assertEquals("Zelda", TitleNormalizer.normalize("zelda"));
+    }
 }
