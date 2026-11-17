@@ -2,5 +2,6 @@ package ch.diethelm.backend.service;
 
 public class TitleNormalizer {
     public static String normalize(String title) {
-        return title.trim().replaceAll("\\s+", " ");    }
+        String normalized = title.trim().replaceAll("\\s+", " ");
+        return normalized.substring(0, 1).toUpperCase() + normalized.substring(1);    }
 }
