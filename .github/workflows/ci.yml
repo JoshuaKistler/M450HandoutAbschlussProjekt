@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        service: [games-service]
+        service: [backend]
     steps:
       - uses: actions/checkout@v4
 
